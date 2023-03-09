@@ -3,6 +3,7 @@
 In this project, we are looking at the bike sharing and bike usage. We will break it down to users, days of the week and gender.
 To do this, we first convert the tripduration to date and time using pandas (see image below)
 ![fig1](/img/pic1.png?raw=true "Tripduration in pandas")
+
 Then using Tableau, we analyze the data.
 ## Results
 In our analysis, we are investigating the following questions:
@@ -33,3 +34,11 @@ In this graph, trips are broken down by days, gender and subscribers vs customer
 
 
 [Link to dashboard]( https://public.tableau.com/app/profile/afra6425/viz/NYC2_16782566120850/NYCbikes?publish=yes)
+
+## Summary
+
+We observed that there are specific locations in the city where bike trips tend to be popular. The data also suggests that Thursdays’ morning and afternoon has the highest bike users among male and female subscribers.
+
+Additional analysis: 1. Why Thursdays are common among the users? A closer look at the data i.e. different locations at different hours of Thursday may help with understanding with the trend.
+2. We observed that several locations are more popular for bike sharing. Additional analysis such as breaking the locations down by gender may help us understand if these spots are common among all users.
+
